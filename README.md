@@ -34,8 +34,8 @@ Major Steps involved :
 - Model Training 
 - Testing 
 
-Data cleaning was performed as there were multiple rows having null entries for some features. So, the numerical values were replaced with mean while the categorical values were replaced with mode for the respective columns. 
-Further I normalised the feature- loan amount term values in order to convert it in a certain range.
+Data cleaning was performed as there were multiple rows having null entries for some features. So, the numerical values were replaced with mean while the categorical values were replaced with mode. 
+Data normalization to convert specific feature values in a certain range.
 
 The above mentioned models were then trained on training dataset and used for predicting loan status on testing dataset. Accuracy was calculated on the basis of how many predictions were correct using confusion matrix.
 
