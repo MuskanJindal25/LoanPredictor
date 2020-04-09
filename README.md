@@ -30,7 +30,7 @@ Various classifiers used to make this prediction are:
 Major Steps involved :
 - Data Cleaning
 - Data Normalization
-- Data Spliting (split size= 0.2)
+- Data Spliting (test size= 0.2)
 - Model Training 
 - Testing 
 
